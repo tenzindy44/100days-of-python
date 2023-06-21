@@ -1,0 +1,11 @@
+# Intro to the name generator
+print("Welcome to the Band Name Generator.")
+
+# User input for the city they grew up in would be saved under a variable named City_Name
+City_Name= input("What's the name fo the city you grew up in? ")
+
+#User input for pet name would be stored under a variable named pet_name
+pet_name= input("What's your pet's name?")
+
+#Finally the genetor will print the band name which puts the two user input together to create a nostalgic band name. 
+print("Your band name would be "+ City_Name +" "+ pet_name)
